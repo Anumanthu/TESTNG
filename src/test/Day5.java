@@ -47,6 +47,12 @@ import org.testng.annotations.BeforeTest;
 		{
 			System.out.println("bye(1)");
 		}
+		
+		@Test
+		public void SecondTest2()
+		{
+			System.out.println("bye(2)");
+		}
 
 
 
