@@ -5,18 +5,16 @@ import org.testng.annotations.Test;
 
 public class Day2 {
 
-	
-	@Test(groups= {"Smoke"})
-	public void ploan()
-	{
-		System.out.println("Day2 good");
-	}
-	
-	@BeforeTest
-	public void prerequiste()
-	{
-		System.out.println("Day 2---I will execute first in tests");
-	}
+
+    @Test(groups = {"Smoke"})
+    public void ploan() {
+        System.out.println("Day2 good");
+    }
+
+    @BeforeTest
+    public void prerequiste() {
+        System.out.println("Day 2---I will execute first in tests");
+    }
 	
 /*
 	@BeforeTest
@@ -25,5 +23,5 @@ public class Day2 {
 		System.out.println("Day 2---I will execute first1");
 	}
 	*/
-	
+
 }
